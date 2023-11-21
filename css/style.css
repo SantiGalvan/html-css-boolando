@@ -41,6 +41,14 @@ a {
     font-weight: bold;
 }
 
+.t-red {
+    color: red;
+}
+
+.t-b {
+    text-decoration: line-through;
+}
+
 
 /* Utilis */
 .border {
@@ -98,4 +106,18 @@ header {
 .card-image {
     max-width: 100%;
     display: block;
+}
+
+
+p {
+    margin: 3px 0;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.price {
+    padding-bottom: 20px;
+    font-size: 0.8rem;
 }
