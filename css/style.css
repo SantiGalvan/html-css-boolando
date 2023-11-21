@@ -8,6 +8,7 @@
 /* Generics */
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 100px;
 }
 
 .container {
@@ -51,6 +52,10 @@ a {
 /* Header */
 header {
     background-color: #ff6900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navbar {
