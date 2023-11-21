@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -20,21 +20,18 @@ body {
     display: flex;
 }
 
+.flex.wrap {
+    flex-wrap: wrap;
+}
+
 ul {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-}
-
-img {
-    max-height: 100%;
-    width: auto;
-}
 
 a {
     color: #fff;
+    text-decoration: none;
 }
 
 .nav-ul {
@@ -43,6 +40,7 @@ a {
     gap: 10px;
     font-weight: bold;
 }
+
 
 /* Utilis */
 .border {
@@ -56,6 +54,11 @@ header {
     top: 0;
     left: 0;
     right: 0;
+}
+
+#logo {
+    max-height: 100%;
+    width: auto;
 }
 
 .navbar {
@@ -78,4 +81,21 @@ header {
 
 .navbar-actions ul {
     justify-content: flex-end;
+}
+
+/* Main */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col {
+    flex-basis: calc(100% / 3);
+    padding: 10px;
+}
+
+.card-image {
+    max-width: 100%;
+    display: block;
 }
