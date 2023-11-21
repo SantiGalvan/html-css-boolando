@@ -93,6 +93,7 @@ h3 {
 /* Header */
 header {
     background-color: #ff6900;
+    box-shadow: 4px 4px 4px gray;
     position: fixed;
     z-index: 2;
     top: 0;
@@ -175,4 +176,28 @@ header {
     left: 0;
     right: 0;
     display: inline-block;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ul {
+    display: flex;
+    padding: 10px 0;
+    gap: 5px;
+}
+
+.footer-ul li a i {
+    font-size: 22px;
 }
