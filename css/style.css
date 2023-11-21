@@ -8,7 +8,7 @@
 /* Generics */
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .container {
@@ -49,6 +49,41 @@ a {
     text-decoration: line-through;
 }
 
+p {
+    margin: 3px 0;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.price {
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+}
+
+.red-s {
+    background-color: red;
+}
+
+.green-s {
+    background-color: green;
+}
+
+.square.l55 {
+    left: 55px;
+}
+
+
+.square {
+    position: absolute;
+    top: 75%;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
 
 /* Utilis */
 .border {
@@ -59,6 +94,7 @@ a {
 header {
     background-color: #ff6900;
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
@@ -108,16 +144,16 @@ header {
     display: block;
 }
 
-
-p {
-    margin: 3px 0;
+.card {
+    position: relative;
 }
 
-h3 {
-    text-transform: uppercase;
-}
-
-.price {
-    padding-bottom: 20px;
-    font-size: 0.8rem;
+.favorite {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: black;
+    font-size: 1.5rem;
 }
