@@ -95,7 +95,7 @@ header {
     background-color: #ff6900;
     box-shadow: 4px 4px 4px gray;
     position: fixed;
-    z-index: 2;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
@@ -158,7 +158,6 @@ header {
     background-color: #fff;
     color: black;
     font-size: 1.5rem;
-    z-index: 1;
 }
 
 .img-hv {
